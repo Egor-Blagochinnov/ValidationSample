@@ -8,7 +8,6 @@ import com.egorblagochinnov.validators.Conditions
 import com.egorblagochinnov.validators.LiveDataValidator
 import com.egorblagochinnov.validators.MuxLiveDataValidator
 
-
 class Example1ViewModel : ViewModel() {
     val textMaxLength: MutableLiveData<String?> = MutableLiveData<String?>()
 

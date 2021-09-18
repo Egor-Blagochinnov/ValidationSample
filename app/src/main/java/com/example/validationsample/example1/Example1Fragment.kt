@@ -18,7 +18,6 @@ import java.lang.ref.WeakReference
 
 class Example1Fragment : Fragment() {
     private lateinit var binding: Example1FragmentBinding
-
     private lateinit var viewModel: Example1ViewModel
 
     override fun onCreateView(
