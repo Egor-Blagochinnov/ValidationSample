@@ -13,14 +13,6 @@ buildscript {
     }
 }
 
-/*allprojects {
-    repositories {
-        google()
-        mavenCentral()
-        maven { url 'https://www.jitpack.io' }
-    }
-}*/
-
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
